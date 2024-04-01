@@ -1,0 +1,93 @@
+/*DOCUMENT CSS - PROJETO CARD*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI';
+    color: black;
+}
+
+#topo{
+    background-color: #f2bc94;
+    height: 130px;
+    text-align: center;
+    padding: 60px;
+}
+
+#conteudo {
+    background-color: #283350;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#rodape {
+    background-color: rgb(79, 79, 181);
+    height: 30px;
+    p{
+    color: white;
+    }
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #5c6ae1;
+    background-color: beige;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.card figure {
+    width: 290px;
+    height: 290px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+.card:hover{
+scale: 1.5;   
+}
+
+.card figure img {
+    width: 100%;
+}
+.card h2{
+
+}
+.card p{
+
+}
+header {
+    background:linear-gradient(to top, purple 5%, pink 60%, pink 100%)
+}
+main{
+    background:linear-gradient(to top, #283350 50%,purple 97%)
+}
+footer{
+    background:linear-gradient(to top,rgb(79, 79, 181)40%, #283350 80%)
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI';
+    color: white;
+    text-shadow: 
+    -1px -1px 10px black,
+    1px -1px 10px black,
+    -1px 1px 10px black,
+    1px 1px 10px black;
+font-size: 50px;
+margin-top: auto;
+}
