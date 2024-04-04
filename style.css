@@ -58,7 +58,7 @@ body {
     transition-duration: 0.5s;
 }
 .card:hover{
-scale: 1.2;   
+scale: 1;   
 }
 
 .card figure img {
